@@ -228,3 +228,4 @@ C:\Users\janch\Documents\My Games\Terraria\tModLoader\ModSources\CalamityCrossmo
 C:\Users\janch\Documents\My Games\Terraria\tModLoader\ModSources\CalamityCrossmodVulnerabilities\obj\Debug\net8.0\refint\CalamityCrossmodVulnerabilities.dll
 C:\Users\janch\Documents\My Games\Terraria\tModLoader\ModSources\CalamityCrossmodVulnerabilities\obj\Debug\net8.0\CalamityCrossmodVulnerabilities.pdb
 C:\Users\janch\Documents\My Games\Terraria\tModLoader\ModSources\CalamityCrossmodVulnerabilities\obj\Debug\net8.0\ref\CalamityCrossmodVulnerabilities.dll
+C:\Users\janch\Documents\My Games\Terraria\tModLoader\ModSources\CalamityCrossmodVulnerabilities\obj\Debug\net8.0\CalamityCrossmodVulnerabilities.sourcelink.json

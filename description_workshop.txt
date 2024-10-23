@@ -4,14 +4,16 @@ Currently supports:
 [list]
 [*]Gensokyo
 [*] Fargo's Souls
-[*] Thorium Mod (Bosses and biome mimics only)
+[*] Thorium Mod (Bosses, biome mimics, boss servants, and event enemies)
 [/list]
 
 Planned support:
 [list]
-[*] Thorium Mod (Full)
+[*] Thorium Mod (Remaining enemies)
 [*] The Stars Above
 [*] Consolaria
+[*] Spirit Mod
+[*] Secrets Of The Shadows
 [/list]
 
 Crossmod debuff support coming soon!
@@ -20,3 +22,6 @@ Special thanks to:
 The creator of Pets Overhaul (Pearlie) for inspiring me to make this mod
 Calamity Team for making the Calamity mod and the Debuff Vulnerability system
 @cheesenuggets. for helping me make the mod icon
+
+Visit my Github for changelogs and code!
+https://github.com/Jacie1krece/CalamityCrossmodVulnerabilities

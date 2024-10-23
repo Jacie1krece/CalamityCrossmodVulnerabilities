@@ -46,6 +46,7 @@ namespace CalamityCrossmodVulnerabilities
             //Gensokyo
             if (IsGensokyoLoaded)
             {
+                //Bosses
                 SetDebuffVulnerability(entity, Gensokyo, "LilyWhite", null, null, false, null, false);
                 SetDebuffVulnerability(entity, Gensokyo, "Rumia", true, null, false, true, false);
                 SetDebuffVulnerability(entity, Gensokyo, "EternityLarva", null, false, true, null, null);
@@ -69,6 +70,7 @@ namespace CalamityCrossmodVulnerabilities
                 SetDebuffVulnerability(entity, Gensokyo, "UtsuhoReiuji", false, null, null, false, true);
                 SetDebuffVulnerability(entity, Gensokyo, "TenshiHinanawi", false, false, null, false, true);
                 SetDebuffVulnerability(entity, Gensokyo, "Kisume", false, null, null, null, false);
+                //Boss servants
                 SetDebuffVulnerability(entity, Gensokyo, "Mouse", null, true, null, null, false);
                 SetDebuffVulnerability(entity, Gensokyo, "SekibankiHead", false, true, null, null, null);
                 SetDebuffVulnerability(entity, Gensokyo, "MedicineDoll", true, false, null, null, true);
@@ -79,6 +81,7 @@ namespace CalamityCrossmodVulnerabilities
                 SetDebuffVulnerability(entity, Gensokyo, "HaniwaCavalry", false, false, null, null, null);
                 SetDebuffVulnerability(entity, Gensokyo, "HaniwaProtector", false, false, null, null, null);
                 SetDebuffVulnerability(entity, Gensokyo, "CursedDecoyDoll", false, false, false, false, false);
+                //Enemies
                 SetDebuffVulnerability(entity, Gensokyo, "Fairy_Flower", null, true, true, null, false);
                 SetDebuffVulnerability(entity, Gensokyo, "Fairy_Rain", null, null, true, false, false);
                 SetDebuffVulnerability(entity, Gensokyo, "Fairy_Sand", false, null, false, null, true);
@@ -86,7 +89,7 @@ namespace CalamityCrossmodVulnerabilities
                 SetDebuffVulnerability(entity, Gensokyo, "Fairy_Water", null, null, true, true, false);
                 SetDebuffVulnerability(entity, Gensokyo, "Fairy_Thorn", true, false, false, null, null);
                 SetDebuffVulnerability(entity, Gensokyo, "Fairy_Stone", null, null, true, null, true);
-                SetDebuffVulnerability(entity, Gensokyo, "Fairy_Blood", true, true, null, null, null);
+                SetDebuffVulnerability(entity, Gensokyo, "Fairy_Blood", true, true, true, null, null);
                 SetDebuffVulnerability(entity, Gensokyo, "Fairy_Spore", true, false, null, null, null);
                 SetDebuffVulnerability(entity, Gensokyo, "Fairy_Metal", true, null, null, true, null);
                 SetDebuffVulnerability(entity, Gensokyo, "Fairy_Bone", false, false, true, true, null);
@@ -105,6 +108,7 @@ namespace CalamityCrossmodVulnerabilities
             //Fargo's Souls
             if (IsFargoSoulsLoaded)
             {
+                //Bosses
                 SetDebuffVulnerability(entity, FargoSoulsMod, "TrojanSquirrel", true, null, null, null, true);
                 SetDebuffVulnerability(entity, FargoSoulsMod, "DeviBoss", true, true, false, null, null);
                 SetDebuffVulnerability(entity, FargoSoulsMod, "BanishedBaron", null, false, null, true, null);
@@ -125,11 +129,12 @@ namespace CalamityCrossmodVulnerabilities
             //Thorium
             if (IsThoriumModLoaded)
             {
+                //Bosses
                 SetDebuffVulnerability(entity, ThoriumMod, "TheGrandThunderBirdv2", false, true, null, false, null);
                 SetDebuffVulnerability(entity, ThoriumMod, "PatchWerk", null, false, null, null, true);
                 SetDebuffVulnerability(entity, ThoriumMod, "QueenJelly", false, true, null, true, false);
                 SetDebuffVulnerability(entity, ThoriumMod, "Viscount", true, true, null, null, true);
-                SetDebuffVulnerability(entity, ThoriumMod, "CorpseBloom", null, true, true, null, false);
+                SetDebuffVulnerability(entity, ThoriumMod, "CorpseBloom", null, false, true, null, false);
                 SetDebuffVulnerability(entity, ThoriumMod, "Illusionist", null, false, null, null, true);
                 SetDebuffVulnerability(entity, ThoriumMod, "GraniteEnergyStorm", null, false, null, null, true);
                 SetDebuffVulnerability(entity, ThoriumMod, "TheBuriedWarrior", null, false, null, null, true);
@@ -146,10 +151,53 @@ namespace CalamityCrossmodVulnerabilities
                 SetDebuffVulnerability(entity, ThoriumMod, "SlagFury", false, false, null, null, true);
                 SetDebuffVulnerability(entity, ThoriumMod, "Aquaius", false, true, null, null, false);
                 SetDebuffVulnerability(entity, ThoriumMod, "Omnicide", true, false, null, null, false);
-                SetDebuffVulnerability(entity, ThoriumMod, "DreamEater", false, false, true, null, false);
+                SetDebuffVulnerability(entity, ThoriumMod, "DreamEater", false, false, null, null, false);
+                //Biome mimics
+                //Fun fact: The only reason why Biome Mimics got their own vulnerability so early is because they are minibosses, and got the miniboss theme in my personal music mod (which probably won't be released because of the fact that I used many songs that I like and aren't mine).
                 SetDebuffVulnerability(entity, ThoriumMod, "SubmergedMimic", null, false, null, null, false);
                 SetDebuffVulnerability(entity, ThoriumMod, "HellBringerMimic", false, false, null, null, null);
                 SetDebuffVulnerability(entity, ThoriumMod, "MyceliumMimic", null, false, null, null, null);
+                //Boss servants
+                SetDebuffVulnerability(entity, ThoriumMod, "AbyssalSpawn", null, true, null, null, false);
+                SetDebuffVulnerability(entity, ThoriumMod, "Beholder", false, null, null, null, null);
+                SetDebuffVulnerability(entity, ThoriumMod, "PyroCore", false, false, true, true, null);
+                SetDebuffVulnerability(entity, ThoriumMod, "BioCore", true, false, false, true, null);
+                SetDebuffVulnerability(entity, ThoriumMod, "CryoCore", false, true, false, true, null);
+                SetDebuffVulnerability(entity, ThoriumMod, "BiteyBaby", true, true, null, null, true);
+                SetDebuffVulnerability(entity, ThoriumMod, "BoreanHopper", true, true, false, null, null);
+                SetDebuffVulnerability(entity, ThoriumMod, "BoreanMyte", true, true, false, null, null);
+                SetDebuffVulnerability(entity, ThoriumMod, "BurstingMaggot", null, false, null, null, true);
+                SetDebuffVulnerability(entity, ThoriumMod, "CoalescedEnergy", false, false, null, null, true);
+                SetDebuffVulnerability(entity, ThoriumMod, "EnergyConduit", false, false, null, null, true);
+                SetDebuffVulnerability(entity, ThoriumMod, "CorpsePetal", null, false, true, null, false);
+                SetDebuffVulnerability(entity, ThoriumMod, "CorpseWeed", null, false, true, null, false);
+                SetDebuffVulnerability(entity, ThoriumMod, "ZealousJellyfish", false, true, null, true, false);
+                SetDebuffVulnerability(entity, ThoriumMod, "SpittingJellyfish", false, true, null, true, false);
+                SetDebuffVulnerability(entity, ThoriumMod, "FamishedMaggot", null, false, null, null, true);
+                SetDebuffVulnerability(entity, ThoriumMod, "PhylacteryofaThousandSouls", null, false, null, null, true);
+                SetDebuffVulnerability(entity, ThoriumMod, "StormHatchling", false, true, null, false, null);
+                //Event Enemies
+                SetDebuffVulnerability(entity, ThoriumMod, "Abomination", null, false, null, null, true);
+                SetDebuffVulnerability(entity, ThoriumMod, "BloodDrop", true, true, true, null, null);
+                SetDebuffVulnerability(entity, ThoriumMod, "BloodMage", true, true, true, null, null);
+                SetDebuffVulnerability(entity, ThoriumMod, "BloodyWarg", null, false, null, null, true);
+                SetDebuffVulnerability(entity, ThoriumMod, "EngorgedEye", true, true, true, null, null);
+                SetDebuffVulnerability(entity, ThoriumMod, "GraveLimb", null, false, null, null, true);
+                SetDebuffVulnerability(entity, ThoriumMod, "SeveredLegs", null, false, null, null, true);
+                SetDebuffVulnerability(entity, ThoriumMod, "SmotheringShade", true, null, false, true, false);
+                SetDebuffVulnerability(entity, ThoriumMod, "BlizzardBat", true, true, false, null, null);
+                SetDebuffVulnerability(entity, ThoriumMod, "FrostBurnt", true, false, false, null, null);
+                SetDebuffVulnerability(entity, ThoriumMod, "FrostBurntFlayer", true, false, false, null, null);
+                SetDebuffVulnerability(entity, ThoriumMod, "SnowElemental", true, false, false, null, null);
+                SetDebuffVulnerability(entity, ThoriumMod, "SnowyOwl", true, true, false, null, null);
+                SetDebuffVulnerability(entity, ThoriumMod, "GoblinDrummer", true, true, true, null, null);
+                SetDebuffVulnerability(entity, ThoriumMod, "GoblinTrapper", true, true, true, null, null);
+                SetDebuffVulnerability(entity, ThoriumMod, "GoblinSpiritGuide", true, true, true, null, null);
+                SetDebuffVulnerability(entity, ThoriumMod, "ShadowflameRevenant", true, true, true, null, null);
+                SetDebuffVulnerability(entity, ThoriumMod, "SeaShantySinger", true, true, true, null, null);
+                SetDebuffVulnerability(entity, ThoriumMod, "LeFantome", true, true, true, null, null);
+                SetDebuffVulnerability(entity, ThoriumMod, "ScissorStalker", true, true, true, null, null);
+                SetDebuffVulnerability(entity, ThoriumMod, "SnowSinga", true, false, false, null, null);
             }
             base.SetDefaults(entity);
         }
