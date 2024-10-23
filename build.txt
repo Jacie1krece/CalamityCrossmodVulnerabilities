@@ -1,0 +1,5 @@
+displayName = Calamity Crossmod Vulnerabilities
+author = Jacie_krece
+version = 1.0
+modReferences = CalamityMod
+includeSource = true

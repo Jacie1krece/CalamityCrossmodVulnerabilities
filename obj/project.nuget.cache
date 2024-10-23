@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "48T4ULhoSlgIPinGtfvl0ANc/oE5jYchstIDkRKiwBcI1Y5hdHyHFL9jo9v9D110sxGG1+xMIpDJf4Lsdb1prA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\janch\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityCrossmodVulnerabilities\\CalamityCrossmodVulnerabilities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\janch\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
