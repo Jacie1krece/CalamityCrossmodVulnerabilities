@@ -1,0 +1,10 @@
+Configs: {
+	VulnerabilityConfig: {
+		DisplayName: Vulnerability Config
+
+		FargoSoulsVulnerabilityToggle: {
+			Label: Napisanie podatności przeciwników z Fargo's Souls DLC
+			Tooltip: Nadpisuje podatności z Fargo's Souls DLC na te z mojego moda
+		}
+	}
+}

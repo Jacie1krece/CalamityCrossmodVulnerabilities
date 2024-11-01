@@ -18,6 +18,7 @@ namespace CalamityCrossmodVulnerabilities
         public static Mod FargoSoulsMod = CalamityCrossmodVulnerabilities.FargoSoulsMod;
         public static bool IsThoriumModLoaded = CalamityCrossmodVulnerabilities.IsThoriumModLoaded;
         public static Mod ThoriumMod = CalamityCrossmodVulnerabilities.ThoriumMod;
+        public static bool FargoSoulsVulnerabilityOverride => ModContent.GetInstance<VulnerabilityConfig>().FargoSoulsVulnerabilityToggle;
         /// <summary>
         /// Sets Calamity's debuff vulnerabilities for a specific modded NPC.
         /// </summary>
@@ -106,7 +107,7 @@ namespace CalamityCrossmodVulnerabilities
                 SetDebuffVulnerability(entity, Gensokyo, "HellRaven", false, true, null, null, null);
             }
             //Fargo's Souls
-            if (IsFargoSoulsLoaded)
+            if (IsFargoSoulsLoaded && FargoSoulsVulnerabilityOverride)
             {
                 //Bosses
                 SetDebuffVulnerability(entity, FargoSoulsMod, "TrojanSquirrel", true, null, null, null, true);

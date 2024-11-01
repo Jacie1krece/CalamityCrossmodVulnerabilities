@@ -3,7 +3,7 @@ This mod aims to allow crossmod enemies to have Calamity's debuff vulnerabilitie
 
 ## Currently supports
 * Gensokyo
-* Fargo's Souls
+* Fargo's Souls (Toggleable, as it already has its own vulnerabilities with the DLC)
 * Thorium Mod (Bosses, biome mimics, boss servants, and event enemies)
 
 ## Planned support
@@ -15,6 +15,10 @@ This mod aims to allow crossmod enemies to have Calamity's debuff vulnerabilitie
 
 ### Crossmod debuff support coming soon!
 
+## Supported languages:
+* English
+* Polish
+
 # How to add support
 Just use Calamity's ModCalls (the same as I use in this mod) directly in your mod - I just implement the vulnerabilities to mods without them.
 
@@ -24,6 +28,9 @@ Calamity Team for making the Calamity mod and the Debuff Vulnerability system
 @cheesenuggets. for helping me make the mod icon
 
 # Changelog
+## v1.1.2
+* Added a toggle to let you override the debuff vulnerabilities provided by Fargo's Souls DLC or let them stay (default: true)
+* As a side effect of the above change, also added English and Polish translations
 ## v1.1.1
 * Added vulnerabilities to the Cursed Coffin from Fargo's Souls 1.7
 ## v1.1

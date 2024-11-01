@@ -1,1 +1,10 @@
+Configs: {
+	VulnerabilityConfig: {
+		DisplayName: Vulnerability Config
 
+		FargoSoulsVulnerabilityToggle: {
+			Label: Fargo's Souls DLC Vulnerability Override
+			Tooltip: Overrides Fargo's Souls DLC's vulnerabilities with the ones my mod provides
+		}
+	}
+}

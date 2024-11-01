@@ -10,7 +10,7 @@
 
 	<!-- References -->
 	<ItemGroup>
-		
+	  <None Remove="Localization\pl-PL_Mods.CalamityCrossmodVulnerabilities.hjson" />
 	</ItemGroup>
 
 </Project>
