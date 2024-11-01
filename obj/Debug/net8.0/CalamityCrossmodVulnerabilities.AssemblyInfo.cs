@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CalamityCrossmodVulnerabilities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae8a2585d2d06a98cc5f8afcbfe057e054833214")]
 [assembly: System.Reflection.AssemblyProductAttribute("CalamityCrossmodVulnerabilities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CalamityCrossmodVulnerabilities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

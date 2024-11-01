@@ -125,7 +125,6 @@ namespace CalamityCrossmodVulnerabilities
                 SetDebuffVulnerability(entity, FargoSoulsMod, "CosmosChampion", false, null, false, false, false);
                 SetDebuffVulnerability(entity, FargoSoulsMod, "AbomBoss", false, true, null, null, true);
                 SetDebuffVulnerability(entity, FargoSoulsMod, "MutantBoss", null, true, true, null, false);
-                SetDebuffVulnerability(entity, FargoSoulsMod, "CursedCoffin", false, false, null, null, true);
             }
             //Thorium
             if (IsThoriumModLoaded)

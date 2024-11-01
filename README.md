@@ -24,6 +24,8 @@ Calamity Team for making the Calamity mod and the Debuff Vulnerability system
 @cheesenuggets. for helping me make the mod icon
 
 # Changelog
+## v1.1.1
+* Added vulnerabilities to the Cursed Coffin from Fargo's Souls 1.7
 ## v1.1
 * Added support for Thorium Mod's boss servants and event enemies
 * Added an Cold weakness to the Blood Fairy to be consistent with other Blood enemies
