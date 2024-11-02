@@ -3,14 +3,13 @@ This mod aims to allow crossmod enemies to have Calamity's debuff vulnerabilitie
 Currently supports:
 * Gensokyo
 * Fargo's Souls (Toggleable, as it already has its own vulnerabilities with the DLC)
-* Thorium Mod (Bosses, biome mimics, boss servants, and event enemies)
+* Thorium Mod
 
 Planned support:
-* Thorium Mod (Remaining enemies)
 * The Stars Above
 * Consolaria
-* Spirit Mod
 * Secrets Of The Shadows
+* Spirit Mod
 
 Crossmod debuff support coming soon!
 

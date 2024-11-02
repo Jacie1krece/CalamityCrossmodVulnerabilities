@@ -4,14 +4,13 @@ This mod aims to allow crossmod enemies to have Calamity's debuff vulnerabilitie
 ## Currently supports
 * Gensokyo
 * Fargo's Souls (Toggleable, as it already has its own vulnerabilities with the DLC)
-* Thorium Mod (Bosses, biome mimics, boss servants, and event enemies)
+* Thorium Mod
 
 ## Planned support
-* Thorium Mod (Remaining enemies)
 * The Stars Above
 * Consolaria
-* Spirit Mod
 * Secrets Of The Shadows
+* Spirit Mod
 
 ### Crossmod debuff support coming soon!
 
@@ -28,6 +27,12 @@ Calamity Team for making the Calamity mod and the Debuff Vulnerability system
 @cheesenuggets. for helping me make the mod icon
 
 # Changelog
+## v1.2
+* Finished Thorium Mod support, adding vulnerabilities to all of its enemies
+* Consistency: Thorn and Bone Fairies are now weak to Sickness, all Kappas are neutral to Sickness, made all zombie-like enemies have the same vulnerabilities as the vanilla Zombie, made both of Granite Energy Storm's servants no longer resistant to Heat.
+* Revamped Champion of Death's vulnerabilities in order to fit its new theme better
+* Added a Water weakness to Mayumi Joutouguu and her Haniwa
+* Fun fact: Seija Kijin's weaknesses are based on the average amount of weaknesses/resistances of Gensokyo's bosses, that then is reversed to fit her Amanojaku nature. Due to this, she's losing her Water weakness.
 ## v1.1.2
 * Added a toggle to let you override the debuff vulnerabilities provided by Fargo's Souls DLC or let them stay (default: true)
 * As a side effect of the above change, also added English and Polish translations
