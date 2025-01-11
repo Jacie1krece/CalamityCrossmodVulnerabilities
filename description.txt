@@ -4,9 +4,9 @@ Currently supports:
 * Gensokyo
 * Fargo's Souls (Toggleable, as it already has its own vulnerabilities with the DLC)
 * Thorium Mod
+* The Stars Above
 
 Planned support:
-* The Stars Above
 * Consolaria
 * Secrets Of The Shadows
 * Spirit Mod

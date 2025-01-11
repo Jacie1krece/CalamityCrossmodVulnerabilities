@@ -5,9 +5,9 @@ This mod aims to allow crossmod enemies to have Calamity's debuff vulnerabilitie
 * Gensokyo
 * Fargo's Souls (Toggleable, as it already has its own vulnerabilities with the DLC)
 * Thorium Mod
+* The Stars Above
 
 ## Planned support
-* The Stars Above
 * Consolaria
 * Secrets Of The Shadows
 * Spirit Mod
@@ -27,6 +27,9 @@ Calamity Team for making the Calamity mod and the Debuff Vulnerability system
 @cheesenuggets. for helping me make the mod icon
 
 # Changelog
+## v1.3
+* Added The Stars Above support - now Warrior of Blight is real (so use Sickness debuffs against Warrior of Light)
+* Also, fun fact: Arbitration's and the Paracausal enemies' vulnerabilities are randomized on mod load - and all 3 have the same vulnerabilities, so keep an eye on the Bestiary!
 ## v1.2
 * Finished Thorium Mod support, adding vulnerabilities to all of its enemies
 * Consistency: Thorn and Bone Fairies are now weak to Sickness, all Kappas are neutral to Sickness, made all zombie-like enemies have the same vulnerabilities as the vanilla Zombie, made both of Granite Energy Storm's servants no longer resistant to Heat.

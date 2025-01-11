@@ -18,6 +18,9 @@ namespace CalamityCrossmodVulnerabilities
         public static Mod FargoSoulsMod = CalamityCrossmodVulnerabilities.FargoSoulsMod;
         public static bool IsThoriumModLoaded = CalamityCrossmodVulnerabilities.IsThoriumModLoaded;
         public static Mod ThoriumMod = CalamityCrossmodVulnerabilities.ThoriumMod;
+        public static bool IsTSALoaded = CalamityCrossmodVulnerabilities.IsTSALoaded;
+        public static Mod TheStarsAbove = CalamityCrossmodVulnerabilities.TheStarsAbove;
+        public static bool?[] ArbitrationVulnerabilities = CalamityCrossmodVulnerabilities.ArbitrationVulnerabilities;
         public static bool FargoSoulsVulnerabilityOverride => ModContent.GetInstance<VulnerabilityConfig>().FargoSoulsVulnerabilityToggle;
         /// <summary>
         /// Sets Calamity's debuff vulnerabilities for a specific modded NPC.
@@ -307,6 +310,37 @@ namespace CalamityCrossmodVulnerabilities
                 SetDebuffVulnerability(entity, ThoriumMod, "VoltEelBody1", false, true, null, true, false);
                 SetDebuffVulnerability(entity, ThoriumMod, "VoltEelBody2", false, true, null, true, false);
                 SetDebuffVulnerability(entity, ThoriumMod, "VoltEelTail", false, true, null, true, false);
+            }
+            //The Stars Above
+            if (IsTSALoaded)
+            {
+                //Bosses
+                SetDebuffVulnerability(entity, TheStarsAbove, "VagrantBoss", null, true, false, null, null);
+                SetDebuffVulnerability(entity, TheStarsAbove, "ThespianBoss", true, false, null, null, null);
+                SetDebuffVulnerability(entity, TheStarsAbove, "CastorBoss", false, null, true, null, null);
+                SetDebuffVulnerability(entity, TheStarsAbove, "PolluxBoss", true, null, false, null, null);
+                SetDebuffVulnerability(entity, TheStarsAbove, "PenthesileaBoss", true, null, false, null, true);
+                SetDebuffVulnerability(entity, TheStarsAbove, "StarfarerBoss", null, true, null, null, null);
+                SetDebuffVulnerability(entity, TheStarsAbove, "NalhaunBoss", null, false, false, null, null);
+                SetDebuffVulnerability(entity, TheStarsAbove, "NalhaunBossPhase2", null, false, false, null, null);
+                SetDebuffVulnerability(entity, TheStarsAbove, "ArbitrationBoss", ArbitrationVulnerabilities[0], ArbitrationVulnerabilities[1], ArbitrationVulnerabilities[2], ArbitrationVulnerabilities[3], ArbitrationVulnerabilities[4]);
+                SetDebuffVulnerability(entity, TheStarsAbove, "WarriorOfLightBoss", false, true, false, false, null);
+                SetDebuffVulnerability(entity, TheStarsAbove, "WarriorOfLightBossFinalPhase", false, true, false, false, null);
+                SetDebuffVulnerability(entity, TheStarsAbove, "TsukiyomiBoss", null, true, false, null, null);
+                //Enemies
+                SetDebuffVulnerability(entity, TheStarsAbove, "LogicBombEnemy", false, false, null, true, null);
+                SetDebuffVulnerability(entity, TheStarsAbove, "LogicVirusEnemy", false, false, null, true, null);
+                SetDebuffVulnerability(entity, TheStarsAbove, "SemaphoreEnemy", false, false, null, true, null);
+                SetDebuffVulnerability(entity, TheStarsAbove, "AmethystHeadpiercer", false, true, false, null, null);
+                SetDebuffVulnerability(entity, TheStarsAbove, "AmethystSwordsinner", false, true, false, null, null);
+                SetDebuffVulnerability(entity, TheStarsAbove, "AsteroidWormHead", null, null, false, null, null);
+                SetDebuffVulnerability(entity, TheStarsAbove, "AsteroidWormBody", null, null, false, null, null);
+                SetDebuffVulnerability(entity, TheStarsAbove, "AsteroidWormTail", null, null, false, null, null);
+                SetDebuffVulnerability(entity, TheStarsAbove, "AstralCell", null, null, false, null, false);
+                SetDebuffVulnerability(entity, TheStarsAbove, "Soulless", null, null, null, null, null);
+                SetDebuffVulnerability(entity, TheStarsAbove, "ParacausalEnigma", ArbitrationVulnerabilities[0], ArbitrationVulnerabilities[1], ArbitrationVulnerabilities[2], ArbitrationVulnerabilities[3], ArbitrationVulnerabilities[4]);
+                SetDebuffVulnerability(entity, TheStarsAbove, "ParacausalEntity", ArbitrationVulnerabilities[0], ArbitrationVulnerabilities[1], ArbitrationVulnerabilities[2], ArbitrationVulnerabilities[3], ArbitrationVulnerabilities[4]);
+                SetDebuffVulnerability(entity, TheStarsAbove, "PrismLoot", false, false, false, false, false);
             }
             base.SetDefaults(entity);
         }
